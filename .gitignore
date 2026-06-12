@@ -1,0 +1,16 @@
+# Environnement virtuel
+venv/
+.venv/
+env/
+
+# Fichiers de cache Python
+__pycache__/
+*.pyc
+
+# Modèles lourds et checkpoints (Trop gros pour GitHub)
+models/
+checkpoint-*/
+
+# Ton dataset d'entraînement et de test
+dataset/
+*.wav
